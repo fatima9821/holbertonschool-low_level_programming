@@ -3,8 +3,8 @@
 
 
 /**
- * main - print "Programming is like building a multilingual puzzle." 
-  *return (0).
+ * main - print "Programming is like building a multil *ingual puzzle." 
+ *return (0).
 */
 
 int main(void)
