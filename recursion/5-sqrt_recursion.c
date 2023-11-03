@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _sqrt_recursion - calculates r*r
- *@i: int number
+ * _sqrt_recursive - calculates r*r to check with n
+ *@i: iterator number
  *@n:base number
  *Return: _sqrt_recursive(n, r + 1)r
  */
