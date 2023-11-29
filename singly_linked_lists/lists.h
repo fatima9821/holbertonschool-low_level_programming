@@ -1,9 +1,9 @@
-#ifndef _LINKED_LIST_ 
+#ifndef _LINKED_LIST_
 #define _LINKED_LIST_
 
 /**
  * struct list_s _ singly linked list
- * @str: string 
+ * @str: string
  * @len: lengts of the string
  * @next: points to the next node
  */
@@ -22,4 +22,4 @@ list_t *add_node(list_t **head, const char *str);
 list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t *head);
 
-#endif 
+#endif
