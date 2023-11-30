@@ -5,11 +5,13 @@
 #include <stdlib.h>
 #include <stddef.h>
 #include <string.h>
+
 /**
- * struct list_s _ singly linked list
+ * struct list_s - singly linked list
  * @str: string
  * @len: lengts of the string
  * @next: points to the next node
+ *
  * Description: singly linked list node structure
  */
 
