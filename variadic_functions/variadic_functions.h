@@ -4,16 +4,16 @@
 #include <stdio.h>
 
 /**
- *struct print - struct print
- *@type: type to print
- *@f: the function associated
+ *struct format_types - struct format_types
+ *@identifier: the conversion specifier
+ *@f: the function pointer
  */
 
-typedef struct print
+typedef struct format_types
 {
-	char type;
-	void (*f)(va_list args);
-} print_f;
+	char *identifier;
+	void (*f)(char *separator, va_list args);
+} f_dt;
 int _putchar(char c);
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
