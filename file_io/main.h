@@ -1,10 +1,15 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/uio.h>
 #include <fcntl.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+void copy_file(const char *src, const char *dest);
 
 int _strlen(char *s);
 
