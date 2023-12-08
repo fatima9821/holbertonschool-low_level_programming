@@ -1,3 +1,5 @@
+#include "hash_tables.h"
+
 /**
 * hash_djb2 - implémentation de l'algorithme djb2
 * @str : chaîne utilisée pour générer la valeur de hachage
